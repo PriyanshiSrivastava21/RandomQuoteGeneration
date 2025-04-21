@@ -39,8 +39,8 @@ function RandomQuote() {
           position: "absolute",
           top: 0,
           left: 0,
-          width: "100%",
-          height: "100%",
+          width: "100vw", // virtual width
+          height: "100vh", // virtual height
           objectFit: "cover",
           zIndex: -1,
           opacity: 0.5,
